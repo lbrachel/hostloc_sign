@@ -18,4 +18,7 @@ And use set a auto-run rask.<br>
 ```
 30 21 * * * /usr/bin/php -f /var/www/html/sign.php >> sign.log
 ```
-It means this PHP script will auto-run at 21:30 everyday, and it will write a feedback into sign.log.
+It means this PHP script will auto-run at 21:30 everyday, and it will write a feedback into sign.log.<br>
+<br>
+<br>
+The Script is from hostloc http://www.hostloc.com/thread-306269-1-1.html.
