@@ -48,3 +48,5 @@ function getData($url)
         curl_close($ch);
         return $result;
 }
+echo "You have got 20 points!";
+?>
