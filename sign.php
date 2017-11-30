@@ -13,7 +13,7 @@ $loginInfo = array(
 );
 $login = postData($suburl,$loginInfo);
 $spaceUrl = "http://www.hostloc.com/space-uid-*.html";
-for($i=20940;$i<20952;$i++)
+for($i=233;$i<246;$i++)
 {
         getData(str_replace("*",$i,$spaceUrl));
 }
@@ -48,5 +48,6 @@ function getData($url)
         curl_close($ch);
         return $result;
 }
-echo "You have got 20 points!";
+echo "You have got 20 points at:\n";
+echo $showtime=date("Y-m-d H:i:s\n");
 ?>
