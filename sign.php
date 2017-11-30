@@ -1,7 +1,7 @@
 <?php
-$username = "USENAME";
+$username = "USERNAME";
 $password = "PASSWORD";
-set_time_limit(1000);
+set_time_limit(600);
 $suburl = "http://www.hostloc.com/member.php?mod=logging&action=login";
 $loginInfo = array(
         "username" => $username,
@@ -13,7 +13,7 @@ $loginInfo = array(
 );
 $login = postData($suburl,$loginInfo);
 $spaceUrl = "http://www.hostloc.com/space-uid-*.html";
-for($i=233;$i<248;$i++)
+for($i=20940;$i<20952;$i++)
 {
         getData(str_replace("*",$i,$spaceUrl));
 }
