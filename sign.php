@@ -1,4 +1,5 @@
 <?php
+date_default_timezone_set("PRC");
 $username = "USERNAME";
 $password = "PASSWORD";
 set_time_limit(600);
